@@ -73,8 +73,8 @@ def rmdir(dir):
 def main():
     print "This must be run in the directory with JPG files"
     print "Note: for this to run, exiftool must be installed.  If not, go to http://owl.phy.queensu.ca/~phil/exiftool/ to grab it"
-    # Initialize some variables
-    newdir = 'NewPics/'
+
+    newdir = 'NewPics/'         # New directory where copies will be saved
 
     userdate = getdatefromuser()			# get cutoff date from user, split it to pass in later to fileparse
     rmdir(newdir)					# set up our copy directory

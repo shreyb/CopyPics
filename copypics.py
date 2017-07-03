@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Test123
 # Note:  for this to run, exiftool must be installed.  If not, go to http://owl.phy.queensu.ca/~phil/exiftool/ to grab it
 
 import subprocess
